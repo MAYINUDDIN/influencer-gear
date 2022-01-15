@@ -41,7 +41,6 @@ margin-top: 5%;
 }
 .btn:hover{
     background-color: #af0440;
-
 }
 /* topbar-left */
 /* topbar-right */
@@ -51,9 +50,12 @@ margin-top: 5%;
 }
 .topbar-right img{
     width: 100%;
-    
-    
+      
 }
+.topbar-right img:hover {
+    opacity: 0.3;
+    transition: .5s ease; 
+  }
 
 hr{
     background-color: rgb(255, 254, 254);
@@ -183,7 +185,7 @@ h3{
    margin: 10px 0px;
 
 }
-.btn:hover{
+.gear-btn:hover{
     background-color: #af0440;
 
 }
