@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Mukta&family=Play&family=Ubuntu&display=swap');
+/* common styles */
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #F3F1FF; */
+}
+.container{
+padding: 80px;
+}
+.topbar{
+    display: flex;
+}
+/* topbar-left */
+.topbar-left{
+    width: 60%;
+}
+.topbar-left p{
+    text-align: justify;
+}
+.title{
+    font-size: 50px;
+}
+.btn{
+   background-color: #E22E6D;
+   border: none;
+   color: white;
+   padding: 12px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 10px 0px;
+   border-radius: 20px;
+}
+.btn:hover{
+    background-color: #af0440;
+
+}
+/* topbar-left */
+/* topbar-right */
+.topbar-right{
+    width: 60%;
+    padding-left: 10%;
+}
+.topbar-right img{
+    width: 70%;
+    border: 0.5px solid rgb(241, 220, 220);
+    border-radius: 50%;
+    padding: 30px;
+    
+}
+
+hr{
+    background-color: rgb(255, 254, 254);
+    height: 0.2px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+/* icons */
+
+.icons{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0px 50px;
+}
+.icon-hr{
+    background-color: rgb(255, 254, 254);
+    height: 0.2px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+/* popular-collection */
