@@ -254,7 +254,7 @@ h3{
         align-items: center;  
     }
     .collections{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);   
     }
 
     .gear-section{
